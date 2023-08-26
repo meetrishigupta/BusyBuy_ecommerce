@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5ffba;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-decoration: none;
+  font-size: 32px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #325C8C;
+}
+.title:active {
+    cursor: pointer;
+    color: #2d00a9;
+}
+
+.searchBar {
+  margin: 0 20px;
+}
+
+.searchBar input {
+  width: 200%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.searchBar input:focus {
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: #4682B4;
+  height: 30px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+    color: #325C8C;
+}
+

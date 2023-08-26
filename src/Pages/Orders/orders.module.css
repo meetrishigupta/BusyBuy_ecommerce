@@ -1,0 +1,64 @@
+.page_title {
+  font-weight: bold;
+  margin: 20px 0;
+  color: #303030;
+}
+
+.no_order {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #325C8C;
+}
+
+.order_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order_item {
+  width: 800px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f6fc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order_date {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #325C8C;
+}
+
+.order_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order_table th {
+  padding: 12px;
+  background-color: #185ac4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.order_table td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 80px;
+  text-align: center;
+}
+
+.order_total {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 80px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #325C8C;
+}
